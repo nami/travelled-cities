@@ -12,7 +12,7 @@ class ActiveCity extends React.Component {
     return (
       <div className="active-city">
         <h3> { this.props.city.name }</h3>
-        { this.props.city.address }
+        { this.props.city.description }
         <img src={ this.props.city.slug } />
       </div>
     );
